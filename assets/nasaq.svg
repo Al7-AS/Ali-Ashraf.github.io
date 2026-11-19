@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1830"/>
+      <stop offset="1" stop-color="#07080c"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3da0ff"/>
+      <stop offset="1" stop-color="#1563ff"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd54a"/>
+      <stop offset="1" stop-color="#f5b800"/>
+    </linearGradient>
+    <linearGradient id="c1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1563ff"/><stop offset="1" stop-color="#0a2a66"/>
+    </linearGradient>
+    <linearGradient id="c2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5b800"/><stop offset="1" stop-color="#5a4300"/>
+    </linearGradient>
+    <linearGradient id="c3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a3cff"/><stop offset="1" stop-color="#1e0b4a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="24" fill="url(#bg)"/>
+  <rect width="800" height="500" rx="24" fill="none" stroke="#3da0ff" stroke-opacity=".35" stroke-width="2"/>
+
+  <!-- Header -->
+  <text x="40" y="66" font-family="Arial, sans-serif" font-size="30" font-weight="900" fill="#ffffff">NASAQ</text>
+  <text x="40" y="90" font-family="Arial, sans-serif" font-size="13" fill="#8fb8ff">Media &amp; Advertising Dashboard</text>
+  <rect x="600" y="42" width="160" height="34" rx="17" fill="url(#blue)"/>
+  <text x="680" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">+ New Campaign</text>
+
+  <!-- Campaign cards -->
+  <g font-family="Arial, sans-serif">
+    <rect x="40" y="120" width="230" height="170" rx="16" fill="#0f1a2e" stroke="#ffffff" stroke-opacity=".06"/>
+    <rect x="40" y="120" width="230" height="100" rx="16" fill="url(#c1)"/>
+    <polygon points="140,150 140,190 176,170" fill="#ffffff" fill-opacity=".9"/>
+    <text x="58" y="250" font-size="15" font-weight="700" fill="#ffffff">Summer Video Ad</text>
+    <text x="58" y="272" font-size="12" fill="#8fb8ff">Active · 82% complete</text>
+
+    <rect x="285" y="120" width="230" height="170" rx="16" fill="#0f1a2e" stroke="#ffffff" stroke-opacity=".06"/>
+    <rect x="285" y="120" width="230" height="100" rx="16" fill="url(#c2)"/>
+    <polygon points="385,150 385,190 421,170" fill="#ffffff" fill-opacity=".9"/>
+    <text x="303" y="250" font-size="15" font-weight="700" fill="#ffffff">Brand Reel Series</text>
+    <text x="303" y="272" font-size="12" fill="#8fb8ff">Editing · 45% complete</text>
+
+    <rect x="530" y="120" width="230" height="170" rx="16" fill="#0f1a2e" stroke="#ffffff" stroke-opacity=".06"/>
+    <rect x="530" y="120" width="230" height="100" rx="16" fill="url(#c3)"/>
+    <polygon points="630,150 630,190 666,170" fill="#ffffff" fill-opacity=".9"/>
+    <text x="548" y="250" font-size="15" font-weight="700" fill="#ffffff">Product Launch Ad</text>
+    <text x="548" y="272" font-size="12" fill="#8fb8ff">Review · 100% complete</text>
+  </g>
+
+  <!-- Performance chart -->
+  <rect x="40" y="312" width="480" height="158" rx="16" fill="#0f1a2e" stroke="#ffffff" stroke-opacity=".06"/>
+  <text x="62" y="342" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Views This Month</text>
+  <polyline points="70,430 130,405 190,415 250,380 310,388 370,350 430,362 490,330"
+            fill="none" stroke="url(#blue)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="70,430 130,405 190,415 250,380 310,388 370,350 430,362 490,330 490,450 70,450"
+            fill="#3da0ff" fill-opacity=".12"/>
+  <circle cx="490" cy="330" r="6" fill="#ffffff"/>
+
+  <!-- KPI column -->
+  <g font-family="Arial, sans-serif">
+    <rect x="540" y="312" width="220" height="74" rx="14" fill="#0f1a2e" stroke="#ffffff" stroke-opacity=".06"/>
+    <text x="560" y="342" font-size="12" fill="#8fb8ff">Total Reach</text>
+    <text x="560" y="368" font-size="22" font-weight="800" fill="#ffffff">1.2M</text>
+
+    <rect x="540" y="396" width="220" height="74" rx="14" fill="#0f1a2e" stroke="#ffffff" stroke-opacity=".06"/>
+    <text x="560" y="426" font-size="12" fill="#8fb8ff">Clients</text>
+    <text x="560" y="452" font-size="22" font-weight="800" fill="url(#gold)">38</text>
+  </g>
+</svg>
